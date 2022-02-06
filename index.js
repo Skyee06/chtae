@@ -7,7 +7,7 @@ client.aliases = new Discord.Collection();
 client.db = require("quick.db");
 
 client.on("ready", async () => {
-  console.log(`${client.user.username} Sudah ngews`);
+  console.log(`${client.user.username} Sudah ngocok`);
   client.user
     .setActivity(`!help`, { type: "WATCHING" }) //watching can you change it to playing,listening,competing.
     .catch(error => console.log(error));
